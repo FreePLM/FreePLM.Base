@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 	<OutputType>library</OutputType>
 	<PackageId>FreePLM.Base</PackageId>
-	<Version>10.0.0</Version>
+	<Version>10.0.1</Version>
 	<Authors>FreePLM.</Authors>
 	<Company>FreePLM.</Company>
 	<PackageDescription>FreePLM.Base</PackageDescription>
@@ -17,12 +17,17 @@
 
 	<ItemGroup>
 		<PackageReference Include="Dapper" Version="2.1.66" />
+		
 		<PackageReference Include="IronPython" Version="3.4.2" />
 
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Http" Version="10.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.0" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
 		<PackageReference Include="Microsoft.Identity.Client" Version="4.79.2" />
+		
+		<PackageReference Include="MySql.Data" Version="9.5.0" />
+		
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
 
 		<PackageReference Include="Serilog" Version="4.3.0" />
@@ -36,6 +41,7 @@
 		<PackageReference Include="System.Management" Version="10.0.0" />
 		<PackageReference Include="System.Security.Cryptography.ProtectedData" Version="10.0.0" />
 		<PackageReference Include="System.ServiceModel.Primitives" Version="10.0.652802" />
+		
 		<PackageReference Include="UnitsNet" Version="5.75.0" />
 		<PackageReference Include="UnitsNet.NumberExtensions" Version="5.75.0" />
 		<PackageReference Include="UnitsNet.Serialization.JsonNet" Version="5.50.0" />
